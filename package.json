@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "docker-alpine-bot",
+  "version": "1.0.0-beta.1",
+  "description": "A bot to automate docker-alpine maintenance.",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smebberson/docker-alpine-bot.git"
+  },
+  "author": "Scott Mebberson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smebberson/docker-alpine-bot/issues"
+  },
+  "homepage": "https://github.com/smebberson/docker-alpine-bot#readme",
+  "dependencies": {
+    "micro": "7.2.1"
+  }
+}
