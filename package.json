@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/smebberson/docker-alpine-bot#readme",
   "dependencies": {
-    "micro": "7.2.1"
+    "micro": "7.2.1",
+    "semver": "5.3.0"
   }
 }
