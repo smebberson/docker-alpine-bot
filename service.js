@@ -16,6 +16,10 @@ const missingRoutes = (next) => (req, res) => {
         return send(res, 404)
     }
 
+    if (req.url === '/') {
+        return send(res, 200, '<script>window.location="https://github.com/smebberson/docker-alpine-bot";</script>');
+    }
+
     return next(req, res)
 
 }
